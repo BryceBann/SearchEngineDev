@@ -85,7 +85,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* chained together classes with the same style code all styles will stay the same */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -118,13 +118,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* All imagiages where scaled to the same px count chained them together */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img{
     max-height: 200px;
 }
-
+/* All the headers could be chained together */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2{
