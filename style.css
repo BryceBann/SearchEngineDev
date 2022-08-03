@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*below i labeled where and why i changed the class names due to styling and sizes*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,32 +85,25 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* chained together classes with the same style code all styles will stay the same */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+/*Changed the class name to all follow the same css styling*/
+.benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3{
+.benefit h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img{
+.benefit img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+
+.center-page {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -118,16 +111,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* All imagiages where scaled to the same px count chained them together */
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img{
+/* All imagiages where scaled to the same px count chained them together as well as changing class name */
+.center-page img{
     max-height: 200px;
 }
-/* All the headers could be chained together */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2{
+/*Changed class names to remove chaining together classes */
+.center-page h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
