@@ -19,6 +19,6 @@ fixed the broken link in the html code, condensed css stylesheet by changing cla
 You can vist the webpage here:https://brycebann.github.io/SearchEngineDev/
 
 ### Resources
- For styling and add photos in markdown: https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet
- Chaning class names for reduced CSS suggested by: Tristan Wilson
- 
+ * For styling and add photos in markdown: https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet
+ * Chaning class names for reduced CSS suggested by: Tristan Wilson
+
